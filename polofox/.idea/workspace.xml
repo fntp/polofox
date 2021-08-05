@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/ReqHeader/ReqHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/ReqHeader/accept/Accept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/ReqHeader/condition/If.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/ReqHeader/host/Host.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/authorization/Authorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/cache/Cache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/connection/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/cookie/Cookie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/date/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/expect/Expect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/from/From.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/maxforward/Max_Forwards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/trailer/Trailer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/transferencoding/Transfer_Encoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/upgrade/Upgrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/via/Via.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/polofox.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/polofox.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,12 +91,24 @@
       <workItem from="1628065675983" duration="5581000" />
       <workItem from="1628071372796" duration="1324000" />
       <workItem from="1628124181175" duration="1847000" />
-      <workItem from="1628148688919" duration="5074000" />
+      <workItem from="1628148688919" duration="5417000" />
     </task>
+    <task id="LOCAL-00001" summary="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
+      <created>1628155516107</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628155516107</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="175" y="0" key="#Project_Structure" timestamp="1628067258397">
@@ -130,6 +123,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="407" y="214" width="552" height="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1628149567113" />
+    <state x="182" y="0" key="CommitChangelistDialog2" timestamp="1628155510887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="182" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1628155510887" />
     <state width="1311" height="235" key="GridCell.Tab.0.bottom" timestamp="1628071262685">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -154,6 +151,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="108" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1628067304888" />
+    <state x="175" y="23" key="Vcs.Push.Dialog.v2" timestamp="1628155527224">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="175" y="23" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628155527224" />
     <state x="0" y="4" key="new project wizard" timestamp="1628132781780">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
