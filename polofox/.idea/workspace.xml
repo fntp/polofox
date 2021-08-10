@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/RespHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/accept/Accept_Charset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/accept/Accept_Encoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/accept/Accept_Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/accept/Accept_Ranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/age/Age.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/eTag/ETag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/location/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/retry/Retry_After.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/warning/Warning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/log/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/polofox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/ReqHeader/ReqHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/ReqHeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/ReqHeader/accept/Accept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/accept/Accept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/ReqHeader/condition/If.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/condition/If.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/ReqHeader/host/Host.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/host/Host.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/cache/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/http/header/cache/Cache_Control.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/polofox.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polofox.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polofox.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +37,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -46,18 +70,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projectGit\polofox\polofox\src\main\resources" />
       <recent name="D:\code\polofox\src\main\java\com\polofox\https" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Log.test">
     <configuration name="PolofoxApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.polofox.PolofoxApplication" />
       <module name="polofox" />
@@ -71,8 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Log.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="polofox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.polofox.log.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.polofox.log" />
+      <option name="MAIN_CLASS_NAME" value="com.polofox.log.Log" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Log.test" />
         <item itemvalue="Application.PolofoxApplication" />
       </list>
     </recent_temporary>
@@ -91,7 +133,8 @@
       <workItem from="1628065675983" duration="5581000" />
       <workItem from="1628071372796" duration="1324000" />
       <workItem from="1628124181175" duration="1847000" />
-      <workItem from="1628148688919" duration="5417000" />
+      <workItem from="1628148688919" duration="6136000" />
+      <workItem from="1628236119390" duration="8704000" />
     </task>
     <task id="LOCAL-00001" summary="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
       <created>1628155516107</created>
@@ -100,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628155516107</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
+      <created>1628155783687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628155783687</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
+      <created>1628155850917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628155850917</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,54 +172,70 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="175" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1628067258397" />
-    <state x="295" y="283" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1628155011565">
+    <state x="271" y="283" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1628236818931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="295" y="283" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1628155011565" />
-    <state x="407" y="214" width="552" height="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1628149567113">
+    <state x="271" y="283" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1628236818931" />
+    <state x="407" y="214" width="552" height="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1628236832272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="407" y="214" width="552" height="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1628149567113" />
-    <state x="182" y="0" key="CommitChangelistDialog2" timestamp="1628155510887">
+    <state x="407" y="214" width="552" height="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1628236832272" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1628155845328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="182" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1628155510887" />
-    <state width="1311" height="235" key="GridCell.Tab.0.bottom" timestamp="1628071262685">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1628155845328" />
+    <state width="1311" height="163" key="GridCell.Tab.0.bottom" timestamp="1628245365708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="235" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628071262685" />
-    <state width="1311" height="235" key="GridCell.Tab.0.center" timestamp="1628071262684">
+    <state width="1311" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628245365708" />
+    <state width="1311" height="163" key="GridCell.Tab.0.center" timestamp="1628245365708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="235" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1628071262684" />
-    <state width="1311" height="235" key="GridCell.Tab.0.left" timestamp="1628071262684">
+    <state width="1311" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1628245365708" />
+    <state width="1311" height="163" key="GridCell.Tab.0.left" timestamp="1628245365708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="235" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1628071262684" />
-    <state width="1311" height="235" key="GridCell.Tab.0.right" timestamp="1628071262685">
+    <state width="1311" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1628245365708" />
+    <state width="1311" height="163" key="GridCell.Tab.0.right" timestamp="1628245365708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="235" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628071262685" />
+    <state width="1311" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628245365708" />
+    <state width="1311" height="226" key="GridCell.Tab.1.bottom" timestamp="1628245365701">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1311" height="226" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628245365701" />
+    <state width="1311" height="226" key="GridCell.Tab.1.center" timestamp="1628245365701">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1311" height="226" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1628245365701" />
+    <state width="1311" height="226" key="GridCell.Tab.1.left" timestamp="1628245365701">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1311" height="226" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1628245365701" />
+    <state width="1311" height="226" key="GridCell.Tab.1.right" timestamp="1628245365701">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1311" height="226" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1628245365701" />
     <state x="100" y="0" key="Maven.ArtifactSearchDialog" timestamp="1628069244711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="100" y="0" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1628069244711" />
-    <state x="108" y="0" key="SettingsEditor" timestamp="1628067304888">
+    <state x="108" y="0" key="SettingsEditor" timestamp="1628241057210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="108" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1628067304888" />
-    <state x="175" y="23" key="Vcs.Push.Dialog.v2" timestamp="1628155527224">
+    <state x="108" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1628241057210" />
+    <state x="175" y="23" key="Vcs.Push.Dialog.v2" timestamp="1628155792839">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="23" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628155527224" />
+    <state x="175" y="23" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628155792839" />
     <state x="0" y="4" key="new project wizard" timestamp="1628132781780">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="4" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1628132781779" />
-    <state x="255" y="159" key="run.anything.popup" timestamp="1628067310746">
+    <state x="255" y="159" key="run.anything.popup" timestamp="1628239671427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="255" y="159" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1628067310746" />
+    <state x="255" y="159" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1628239671427" />
     <state x="262" y="0" width="840" height="726" key="search.everywhere.popup" timestamp="1628149237154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

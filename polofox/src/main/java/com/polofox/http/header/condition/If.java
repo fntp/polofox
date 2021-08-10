@@ -1,4 +1,4 @@
-package com.polofox.http.header.ReqHeader.condition;
+package com.polofox.http.header.condition;
 import lombok.Data;
 import java.io.Serializable;
 @Data
