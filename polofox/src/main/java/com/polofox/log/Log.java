@@ -7,8 +7,9 @@ import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
 public class Log {
-    private static DateTimeFormatter formatter;
-    private static String dateTime;
+    private static final Log log = new Log ();
+    private Log(){}
+    public static Log getLog() { return log; }
     @Test
     public void test() throws IOException {
         log();
@@ -18,9 +19,9 @@ public class Log {
     @Info(info ="启动POLOFOX服务")
     public void init() throws IOException {
         InputStream resourceAsStream =this.getClass().getClassLoader().getResourceAsStream("polofox.txt");
+        assert resourceAsStream != null;
         BufferedReader reader = new BufferedReader(new InputStreamReader(resourceAsStream));
-        StringBuffer buffer = new StringBuffer();
-        String cache = "";
+        String cache;
         while ((cache = reader.readLine()) != null) {
             System.out.println(cache);
         }
@@ -34,8 +35,8 @@ public class Log {
         }
     }
     public static String getTimeStampWithFormatter() {
-        formatter = DateTimeFormatter.ofPattern("yyyy:MM:dd:HH:mm:ss:SSS");
-        dateTime = LocalDateTime.now(ZoneOffset.of("+8")).format(formatter);
-        return "GMT-"+dateTime+"ms:";
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern ("yyyy:MM:dd:HH:mm:ss:SSS");
+        String dateTime = LocalDateTime.now (ZoneOffset.of ("+8")).format (formatter);
+        return "GMT-"+ dateTime +"ms:";
     }
 }
