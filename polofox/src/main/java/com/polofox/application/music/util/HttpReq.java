@@ -13,7 +13,11 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.LinkedHashMap;
 import java.util.Map;
-
+/*** @Coder scx
+　　* @description: 基本请求信息
+　　* @author SunChengXin
+　　* @date 2021/8/25 16:21
+　　*/
 public class HttpReq {
 
     private Connection connection;
@@ -55,8 +59,8 @@ public class HttpReq {
      */
     public static WebClient getReadyWebClient(){
 //        webClient.setJavaScriptErrorListener(new SilentJavaScriptErrorListener());
-        //设置本地代理
-        webClient = new WebClient(BrowserVersion.FIREFOX_78);
+//        设置本地代理
+        webClient = new WebClient(BrowserVersion.BEST_SUPPORTED);
 //        // 取消 CSS 支持
         webClient.getOptions().setCssEnabled(false);
         // 保留 JavaScript支持 ✔
@@ -73,6 +77,7 @@ public class HttpReq {
         webClient.waitForBackgroundJavaScript(5000);
         //设置超时时间
         webClient.getOptions().setTimeout(5000);
+
         //直接返回
         return webClient;
     }
@@ -106,7 +111,8 @@ public class HttpReq {
             //模拟浏览器打开一个目标网址
             HtmlPage htmlPage = wc. getPage(request);
             //为了获取js执行的数据 线程开始沉睡等待
-            Thread.sleep(1000);//这个线程的等待 因为js加载需要时间的
+            Thread.sleep(1000);
+            //这个线程的等待 因为js加载需要时间的
             //以xml形式获取响应文本
             String xml = htmlPage.asXml();
             //并转为Document对象return
@@ -185,8 +191,6 @@ public class HttpReq {
      */
     public static Document parseResponse(String responseStr){
         Document doc=Jsoup.parse(responseStr);
-        System.out.println("获得的html文档如下");
-        System.out.println(doc.html());
         return doc;
     }
     public static class MyJSErrorListener extends DefaultJavaScriptErrorListener {
