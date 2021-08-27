@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/bean/AllHkStockDf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/bean/HkStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/doReq/DoHkReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/service/ListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/sunchengxin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/sunchengxin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/PolofoxApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/PolofoxApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/util/HttpReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/util/HttpReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/StockApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/EastMoneyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/polofox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/polofox.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/PolofoxApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/PolofoxApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/polofox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polofox.txt" afterDir="false" />
-    </list>
+    <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +148,7 @@
       <workItem from="1628148688919" duration="6136000" />
       <workItem from="1628236119390" duration="8704000" />
       <workItem from="1629967763027" duration="2342000" />
-      <workItem from="1630045243426" duration="7179000" />
+      <workItem from="1630045243426" duration="7556000" />
     </task>
     <task id="LOCAL-00001" summary="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
       <created>1628155516107</created>
@@ -195,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629954568018</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fntp 今日造轮子对Http的应用写了一个玩一玩 写了一个东方财富的证券港股爬虫数据，后续继续更新">
+      <created>1630060278013</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630060278013</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +193,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新" />
+    <MESSAGE value="fntp 今日造轮子对Http的应用写了一个玩一玩 写了一个东方财富的证券港股爬虫数据，后续继续更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="fntp 今日造轮子对Http的应用写了一个玩一玩 写了一个东方财富的证券港股爬虫数据，后续继续更新" />
   </component>
 </project>
