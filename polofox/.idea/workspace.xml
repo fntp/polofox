@@ -4,47 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/util/HtmlUnitBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/StockApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/bean/AllHkStockDf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/bean/HkStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/doReq/DoHkReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/service/ListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/sunchengxin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/sunchengxin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/GetMusicUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/GetMusicUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/PolofoxApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/PolofoxApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/util/HttpReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/util/HttpReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/StockApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/EastMoneyApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/polofox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/polofox.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/PolofoxApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/PolofoxApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/Header.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/ReqHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/ReqHeader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/RespHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/RespHeader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Charset.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Charset.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Encoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Encoding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Language.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Ranges.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Ranges.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/age/Age.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/age/Age.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/authorization/Authorization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/authorization/Authorization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cache/Cache_Control.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cache/Cache_Control.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/condition/If.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/condition/If.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/connection/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/connection/Connection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cookie/Cookie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cookie/Cookie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/date/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/date/Date.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/eTag/ETag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/eTag/ETag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/expect/Expect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/expect/Expect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/from/From.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/from/From.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/host/Host.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/host/Host.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/location/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/location/Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/maxforward/Max_Forwards.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/maxforward/Max_Forwards.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/retry/Retry_After.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/retry/Retry_After.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/trailer/Trailer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/trailer/Trailer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/transferencoding/Transfer_Encoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/transferencoding/Transfer_Encoding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/upgrade/Upgrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/upgrade/Upgrade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/via/Via.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/via/Via.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/warning/Warning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/warning/Warning.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/log/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/log/Info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/log/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/log/Log.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/polofox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polofox.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +32,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -71,6 +47,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -103,7 +82,20 @@
       <recent name="D:\code\polofox\src\main\java\com\polofox\https" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetMusicUrl">
+  <component name="RunManager" selected="Application.DoHkReq">
+    <configuration name="DoHkReq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.polofox.application.stock.eastmoney.doReq.DoHkReq" />
+      <module name="polofox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.polofox.application.stock.eastmoney.doReq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetMusicUrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.polofox.application.music.GetMusicUrl" />
       <module name="polofox" />
@@ -148,12 +140,14 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoHkReq" />
         <item itemvalue="Application.GetMusicUrl" />
         <item itemvalue="JUnit.Log.test" />
         <item itemvalue="Application.PolofoxApplication" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -170,6 +164,8 @@
       <workItem from="1628124181175" duration="1847000" />
       <workItem from="1628148688919" duration="6136000" />
       <workItem from="1628236119390" duration="8704000" />
+      <workItem from="1629967763027" duration="2342000" />
+      <workItem from="1630045243426" duration="7179000" />
     </task>
     <task id="LOCAL-00001" summary="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
       <created>1628155516107</created>
@@ -192,11 +188,18 @@
       <option name="project" value="LOCAL" />
       <updated>1628155850917</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
+      <created>1629954568018</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629954568018</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新" />

@@ -1,4 +1,4 @@
-package com.polofox.application.stock;
+package com.polofox.application.stock.eastmoney;
 
 /**
  * @author Write By SunChengXin
@@ -7,5 +7,5 @@ package com.polofox.application.stock;
  * @Modifier: SunChengXin
  * @date 2021/8/25-16:44
  */
-public class StockApplication {
+public class EastMoneyApplication {
 }

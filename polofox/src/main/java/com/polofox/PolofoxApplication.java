@@ -4,7 +4,11 @@ import com.polofox.log.Log;
 import java.io.IOException;
 public class PolofoxApplication {
     private static final Log log = Log.getLog ();
-    //  程序启动入口
+
+    /**
+     * 程序启动入口
+     * @param args
+     */
     public static void main(String[] args) {
         try {
             log.init ();
@@ -12,7 +16,7 @@ public class PolofoxApplication {
             System.out.println ("Current Version --"+ AppInfo.VERSION);
             Log.log ();
         } catch (IOException e) {
-            System.out.println ("程序启动失败！");
+            System.out.println ("Polofox程序启动失败！");
         }
     }
 }

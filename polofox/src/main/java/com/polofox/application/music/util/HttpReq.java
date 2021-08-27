@@ -13,7 +13,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.LinkedHashMap;
 import java.util.Map;
-/*** @Coder scx
+/***
+   * @Coder scx
 　　* @description: 基本请求信息
 　　* @author SunChengXin
 　　* @date 2021/8/25 16:21
@@ -58,9 +59,8 @@ public class HttpReq {
      * @return
      */
     public static WebClient getReadyWebClient(){
-//        webClient.setJavaScriptErrorListener(new SilentJavaScriptErrorListener());
-//        设置本地代理
-        webClient = new WebClient(BrowserVersion.BEST_SUPPORTED);
+//        webClient.setJavaScriptErrorListener(new SilentJavaScriptErrorListener
+        webClient = new WebClient(BrowserVersion.FIREFOX_78);
 //        // 取消 CSS 支持
         webClient.getOptions().setCssEnabled(false);
         // 保留 JavaScript支持 ✔
