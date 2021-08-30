@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="fntp 今日造轮子对Http的应用写了一个玩一玩 写了一个东方财富的证券港股爬虫数据，后续继续更新">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/utils/ChToEn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,20 @@
       <recent name="D:\code\polofox\src\main\java\com\polofox\https" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DoHkReq">
+  <component name="RunManager" selected="Application.ChToEn">
+    <configuration name="ChToEn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.polofox.utils.ChToEn" />
+      <module name="polofox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.polofox.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DoHkReq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.polofox.application.stock.eastmoney.doReq.DoHkReq" />
       <module name="polofox" />
@@ -125,6 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChToEn" />
         <item itemvalue="Application.DoHkReq" />
         <item itemvalue="Application.GetMusicUrl" />
         <item itemvalue="JUnit.Log.test" />
@@ -151,6 +167,7 @@
       <workItem from="1628236119390" duration="8704000" />
       <workItem from="1629967763027" duration="2342000" />
       <workItem from="1630045243426" duration="7946000" />
+      <workItem from="1630288394879" duration="1690000" />
     </task>
     <task id="LOCAL-00001" summary="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
       <created>1628155516107</created>
