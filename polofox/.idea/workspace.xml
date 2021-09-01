@@ -5,9 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="fntp 今日造轮子对Http的应用写了一个玩一玩 写了一个东方财富的证券港股爬虫数据，后续继续更新">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/utils/ChToEn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/polofox_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Security_5_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/polofox.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/bean/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/bean/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/doReq/DoHkCommentReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/doReq/DoHkUserQuoteReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/httpreq/URL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/test/TestReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/utils/GeReqUrlInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/stockApi.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/sunchengxin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/sunchengxin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/EastMoneyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/EastMoneyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/bean/AllHkStockDf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/bean/AllHkStockDf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/bean/HkStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/bean/HkStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/doReq/DoHkReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/doReq/DoHkReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/service/ListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/service/ListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/EastMoneyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/EastMoneyApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/AllHkStockDf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/AllHkStockDf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/HkStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/HkStock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/doReq/DoHkReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/doReq/DoHkReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/ListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/ListService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/log/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/log/Log.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +51,8 @@
         <option value="Kotlin File" />
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -68,8 +101,11 @@
       <recent name="D:\projectGit\polofox\polofox\src\main\resources" />
       <recent name="D:\code\polofox\src\main\java\com\polofox\https" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projectGit\polofox\polofox\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ChToEn">
+  <component name="RunManager" selected="Application.TestReq">
     <configuration name="ChToEn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.polofox.utils.ChToEn" />
       <module name="polofox" />
@@ -88,7 +124,7 @@
       <module name="polofox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.polofox.application.stock.eastmoney.doReq.*" />
+          <option name="PATTERN" value="com.polofox.application.stock.eastmoney.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMusicUrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.polofox.application.music.GetMusicUrl" />
+    <configuration name="EastMoneyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.polofox.application.stock.eastmoney.EastMoneyApplication" />
       <module name="polofox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.polofox.application.music.*" />
+          <option name="PATTERN" value="com.polofox.application.stock.eastmoney.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,29 +158,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Log.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestReq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.polofox.application.stock.eastmoney.test.TestReq" />
       <module name="polofox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.polofox.log.*" />
+          <option name="PATTERN" value="com.polofox.application.stock.eastmoney.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.polofox.log" />
-      <option name="MAIN_CLASS_NAME" value="com.polofox.log.Log" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChToEn" />
+        <item itemvalue="Application.TestReq" />
         <item itemvalue="Application.DoHkReq" />
-        <item itemvalue="Application.GetMusicUrl" />
-        <item itemvalue="JUnit.Log.test" />
+        <item itemvalue="Application.EastMoneyApplication" />
         <item itemvalue="Application.PolofoxApplication" />
+        <item itemvalue="Application.ChToEn" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +200,7 @@
       <workItem from="1628236119390" duration="8704000" />
       <workItem from="1629967763027" duration="2342000" />
       <workItem from="1630045243426" duration="7946000" />
-      <workItem from="1630288394879" duration="1690000" />
+      <workItem from="1630288394879" duration="16088000" />
     </task>
     <task id="LOCAL-00001" summary="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
       <created>1628155516107</created>

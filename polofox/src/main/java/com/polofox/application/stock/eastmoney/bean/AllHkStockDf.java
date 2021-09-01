@@ -37,6 +37,8 @@ public class AllHkStockDf {
     private double f18;
     @Info(info = "成交量")
     private long f5;
-    @Info(info = "成交额")
-    private double f6;
+    @Info(info = "成交额,有的成交额会是-，所以不能直接用double")
+    private String f6;
+    @Info(info = "换手率")
+    private String f8;
 }

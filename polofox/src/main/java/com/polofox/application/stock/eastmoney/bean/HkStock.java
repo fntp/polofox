@@ -1,6 +1,7 @@
 package com.polofox.application.stock.eastmoney.bean;
 
 import com.polofox.log.Info;
+import lombok.Data;
 
 /**
  * @author Write By SunChengXin
@@ -9,6 +10,7 @@ import com.polofox.log.Info;
  * @Modifier: SunChengXin
  * @date 2021/8/27-14:49
  */
+@Data
 public class HkStock {
     @Info(info="股票代码")
     private String stockCode;

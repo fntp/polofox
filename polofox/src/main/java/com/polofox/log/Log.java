@@ -28,15 +28,21 @@ public class Log {
     }
 
     public static void log(){
-        @Info(info = "获得方法调用栈")
-        StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
-        for (StackTraceElement a : stackTrace) {
-            System.out.println(getTimeStampWithFormatter()+"FileName:"+a.getFileName()+"-className:"+a.getClassName()+"-methodName:"+a.getMethodName()+"()-lineNumber:"+a.getLineNumber());
-        }
+        new Thread(()->{
+            @Info(info = "获得方法调用栈")
+            StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+            for (StackTraceElement a : stackTrace) {
+                System.out.println(getTimeStampWithFormatter()+"FileName:"+a.getFileName()+"-className:"+a.getClassName()+"-methodName:"+a.getMethodName()+"()-lineNumber:"+a.getLineNumber());
+            }
+        }).start();
     }
     public static String getTimeStampWithFormatter() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern ("yyyy:MM:dd:HH:mm:ss:SSS");
         String dateTime = LocalDateTime.now (ZoneOffset.of ("+8")).format (formatter);
         return "GMT-"+ dateTime +"ms:";
+    }
+
+    public static void log(String str){
+        System.out.println(getTimeStampWithFormatter()+"-INFO-Polofox："+str);
     }
 }
