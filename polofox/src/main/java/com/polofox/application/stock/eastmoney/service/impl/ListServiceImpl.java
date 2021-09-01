@@ -8,7 +8,6 @@ import com.polofox.application.stock.eastmoney.httpreq.EastHttpReq;
 import com.polofox.application.stock.eastmoney.service.ListService;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Objects;
@@ -61,27 +60,16 @@ public class ListServiceImpl implements ListService {
      * 其实这里三个方法可以进行代码抽取，暂时先不写写一个TODO标记一下
      * TODO 代码抽取相同部分
      * @param url 请求地址
-     * @return 返回一个列表
+     * @return List 返回一个列表
      */
     @Override
-    public List<UserInfo> getUserInfoList(String url) {
+    public List getUserInfoList(String url) {
         // 第一步 拿到Document
-        String jsonStr = "";
-        try {
-            jsonStr = EastHttpReq.getJson(url);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        //第二步 转成JsonList
-        JSONObject responseJson;
-        responseJson = JSONObject.parseObject(jsonStr);
-        JSONObject object = responseJson.getJSONObject("result");
-        String result = object.toJSONString();
-        return Objects.requireNonNull(JSONArray.parseArray(result, UserInfo.class));
+        return EastHttpReq.getObjectList(url, "result", UserInfo.class);
     }
 
     @Override
-    public List<AllHkStockDf> getUserSFollowQuoteList(String url) {
+    public List<AllHkStockDf> getUserFollowQuoteList(String url) {
         // 第一步 获得document网页文档
         Document document = EastHttpReq.getDocument(url, EastHttpReq.setHeaders());
         // 第二步 获得数据

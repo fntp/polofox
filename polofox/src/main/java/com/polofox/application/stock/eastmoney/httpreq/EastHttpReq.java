@@ -1,11 +1,16 @@
 package com.polofox.application.stock.eastmoney.httpreq;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
+import com.polofox.application.stock.eastmoney.bean.UserInfo;
 import com.polofox.log.Info;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import java.io.IOException;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 /**
  * 封装请求信息
@@ -142,5 +147,21 @@ public class EastHttpReq {
     public static Document parseResponse(String responseStr){
         Document doc=Jsoup.parse(responseStr);
         return doc;
+    }
+
+    public static List getObjectList(String url,String targetJsonKeyName,Class obj){
+        // 第一步 拿到Document
+        String jsonStr = "";
+        try {
+            jsonStr = getJson(url);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        //第二步 转成JsonList
+        JSONObject responseJson;
+        responseJson = JSONObject.parseObject(jsonStr);
+        JSONObject object = responseJson.getJSONObject(targetJsonKeyName);
+        String result = object.toJSONString();
+        return Objects.requireNonNull(JSONArray.parseArray(result, obj));
     }
 }

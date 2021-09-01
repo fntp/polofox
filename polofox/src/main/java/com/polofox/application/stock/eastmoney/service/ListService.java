@@ -44,5 +44,5 @@ public interface ListService {
      * @param url 请求地址
      * @return 返回一个股票列表
      */
-    List<AllHkStockDf> getUserSFollowQuoteList(String url);
+    List<AllHkStockDf> getUserFollowQuoteList(String url);
 }
