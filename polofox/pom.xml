@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>stupy</artifactId>
+    <artifactId>polofox</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <kotlin.version>1.3.61</kotlin.version>
@@ -80,6 +80,25 @@
             <artifactId>pinyin4j</artifactId>
             <version>2.5.1</version>
         </dependency>
+        <!-- 机器学习-Java-https://mvnrepository.com/artifact/org.apache.mahout/mahout-mr -->
+        <dependency>
+            <groupId>org.apache.mahout</groupId>
+            <artifactId>mahout-mr</artifactId>
+            <version>0.13.0</version>
+        </dependency>
+        <!-- 机器学习-Java-https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/weka-stable -->
+        <dependency>
+            <groupId>nz.ac.waikato.cms.weka</groupId>
+            <artifactId>weka-stable</artifactId>
+            <version>3.8.5</version>
+        </dependency>
+        <!-- 机器学习-Java-https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-core -->
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-core</artifactId>
+            <version>1.0.0-M1.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>

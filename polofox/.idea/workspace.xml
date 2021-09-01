@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/service/ListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/service/ListService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-context.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/polofox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/polofox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/EastMoneyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/EastMoneyApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/AllHkStockDf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/AllHkStockDf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/HkStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/HkStock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/doReq/DoHkReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/doReq/DoHkReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/ListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/ListService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/log/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/log/Log.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/utils/ChToEn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/utils/ChToEn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polofox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polofox.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +75,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -74,20 +87,7 @@
       <recent name="D:\projectGit\polofox\polofox\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestReq">
-    <configuration name="ChToEn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.polofox.utils.ChToEn" />
-      <module name="polofox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.polofox.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Log.test">
     <configuration name="DoHkReq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.polofox.application.stock.eastmoney.doReq.DoHkReq" />
       <module name="polofox" />
@@ -140,13 +140,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Log.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="polofox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.polofox.log.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.polofox.log" />
+      <option name="MAIN_CLASS_NAME" value="com.polofox.log.Log" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Log.test" />
         <item itemvalue="Application.TestReq" />
         <item itemvalue="Application.DoHkReq" />
         <item itemvalue="Application.EastMoneyApplication" />
         <item itemvalue="Application.PolofoxApplication" />
-        <item itemvalue="Application.ChToEn" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +186,7 @@
       <workItem from="1629967763027" duration="2342000" />
       <workItem from="1630045243426" duration="7946000" />
       <workItem from="1630288394879" duration="16088000" />
-      <workItem from="1630471475765" duration="3068000" />
+      <workItem from="1630471475765" duration="14478000" />
     </task>
     <task id="LOCAL-00001" summary="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
       <created>1628155516107</created>
@@ -214,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630471926091</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fntp 局部更新 更新了框架的案例">
+      <created>1630478652926</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1630478652926</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +247,8 @@
     <MESSAGE value="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新" />
     <MESSAGE value="fntp 今日造轮子对Http的应用写了一个玩一玩 写了一个东方财富的证券港股爬虫数据，后续继续更新" />
     <MESSAGE value="fntp 局部更新 对东方财富证券的用户数据爬虫做了一个简单的案例演示" />
-    <option name="LAST_COMMIT_MESSAGE" value="fntp 局部更新 对东方财富证券的用户数据爬虫做了一个简单的案例演示" />
+    <MESSAGE value="fntp 局部更新 更新了框架的案例" />
+    <MESSAGE value="fntp 局部更新 更新了框架的局部" />
+    <option name="LAST_COMMIT_MESSAGE" value="fntp 局部更新 更新了框架的局部" />
   </component>
 </project>
