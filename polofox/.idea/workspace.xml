@@ -4,61 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="fntp 局部更新 更新了框架的局部">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/context/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_8_25_15_14_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_8_25_15_14__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/info/AppInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/info/AppInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/PolofoxApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/PolofoxApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/GetMusicUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/GetMusicUrl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/bean/Music.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/bean/Music.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/bean/Req.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/bean/Req.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HtmlUnitBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HtmlUnitBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HttpReq$MyJSErrorListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HttpReq$MyJSErrorListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HttpReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HttpReq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/WordUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/WordUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/EastMoneyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/EastMoneyApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/AllHkStockDf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/AllHkStockDf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/HkStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/HkStock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/doReq/DoHkReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/doReq/DoHkReq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/ListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/ListService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/Header.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/ReqHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/ReqHeader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/RespHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/RespHeader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Charset.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Charset.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Encoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Encoding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Language.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Ranges.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Ranges.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/age/Age.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/age/Age.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/authorization/Authorization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/authorization/Authorization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cache/Cache_Control.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cache/Cache_Control.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/condition/If.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/condition/If.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/connection/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/connection/Connection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cookie/Cookie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cookie/Cookie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/date/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/date/Date.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/eTag/ETag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/eTag/ETag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/expect/Expect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/expect/Expect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/from/From.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/from/From.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/host/Host.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/host/Host.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/location/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/location/Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/maxforward/Max_Forwards.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/maxforward/Max_Forwards.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/retry/Retry_After.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/retry/Retry_After.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/trailer/Trailer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/trailer/Trailer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/transferencoding/Transfer_Encoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/transferencoding/Transfer_Encoding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/upgrade/Upgrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/upgrade/Upgrade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/via/Via.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/via/Via.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/warning/Warning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/warning/Warning.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/info/AppInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/info/AppInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/log/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/log/Info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/log/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/log/Log.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/utils/ChToEn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/utils/ChToEn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/polofox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polofox.txt" afterDir="false" />
-    </list>
+    <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="fntp 局部更新 更新了框架的局部" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
