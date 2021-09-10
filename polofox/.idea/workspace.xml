@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-context.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
+    <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="fntp 局部更新 更新了框架的局部">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/context/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_8_25_15_14_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_8_25_15_14__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/info/AppInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/info/AppInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/polofox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/polofox.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/PolofoxApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/PolofoxApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/GetMusicUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/GetMusicUrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/bean/Music.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/bean/Music.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/bean/Req.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/bean/Req.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HtmlUnitBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HtmlUnitBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HttpReq$MyJSErrorListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HttpReq$MyJSErrorListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HttpReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HttpReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/WordUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/WordUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/EastMoneyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/EastMoneyApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/AllHkStockDf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/AllHkStockDf.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/HkStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/HkStock.class" afterDir="false" />
@@ -18,6 +26,35 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/ListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/ListService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/Header.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/ReqHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/ReqHeader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/RespHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/RespHeader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Charset.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Charset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Encoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Encoding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Ranges.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Ranges.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/age/Age.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/age/Age.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/authorization/Authorization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/authorization/Authorization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cache/Cache_Control.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cache/Cache_Control.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/condition/If.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/condition/If.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/connection/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/connection/Connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cookie/Cookie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cookie/Cookie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/date/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/date/Date.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/eTag/ETag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/eTag/ETag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/expect/Expect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/expect/Expect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/from/From.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/from/From.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/host/Host.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/host/Host.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/location/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/location/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/maxforward/Max_Forwards.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/maxforward/Max_Forwards.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/retry/Retry_After.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/retry/Retry_After.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/trailer/Trailer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/trailer/Trailer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/transferencoding/Transfer_Encoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/transferencoding/Transfer_Encoding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/upgrade/Upgrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/upgrade/Upgrade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/via/Via.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/via/Via.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/warning/Warning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/warning/Warning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/info/AppInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/info/AppInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/log/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/log/Info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/log/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/log/Log.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/utils/ChToEn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/utils/ChToEn.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/polofox.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polofox.txt" afterDir="false" />
@@ -87,7 +124,7 @@
       <recent name="D:\projectGit\polofox\polofox\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Log.test">
+  <component name="RunManager" selected="Application.EastMoneyApplication">
     <configuration name="DoHkReq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.polofox.application.stock.eastmoney.doReq.DoHkReq" />
       <module name="polofox" />
@@ -158,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Log.test" />
-        <item itemvalue="Application.TestReq" />
-        <item itemvalue="Application.DoHkReq" />
         <item itemvalue="Application.EastMoneyApplication" />
         <item itemvalue="Application.PolofoxApplication" />
+        <item itemvalue="Application.TestReq" />
+        <item itemvalue="JUnit.Log.test" />
+        <item itemvalue="Application.DoHkReq" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +223,9 @@
       <workItem from="1629967763027" duration="2342000" />
       <workItem from="1630045243426" duration="7946000" />
       <workItem from="1630288394879" duration="16088000" />
-      <workItem from="1630471475765" duration="14478000" />
+      <workItem from="1630471475765" duration="16776000" />
+      <workItem from="1630652813016" duration="882000" />
+      <workItem from="1630848794579" duration="6259000" />
     </task>
     <task id="LOCAL-00001" summary="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
       <created>1628155516107</created>
@@ -237,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630478652926</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fntp 局部更新 更新了框架的局部">
+      <created>1630491079404</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1630491079404</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

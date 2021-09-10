@@ -9,7 +9,6 @@ import java.time.format.DateTimeFormatter;
 public class Log {
     private static final Log log = new Log ();
     private Log(){}
-    public  Log(String a){}s
     public static Log getLog() { return log; }
     @Test
     public void test(){
