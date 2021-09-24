@@ -14,8 +14,8 @@ import java.util.List;
  * @Modifier: SunChengXin
  * @date 2021/8/30-13:58
  */
-public class TestReq {
-    public static void main(String[] args) {
+public class ApplicationContext {
+    public static void start() {
         List<HkStock> hkStockList = DoHkReq.getHkStockList();
         hkStockList.forEach(hkStock -> {
             List<Comment> commentList = DoHkCommentReq.getCommentList(hkStock.getStockCode());

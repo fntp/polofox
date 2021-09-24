@@ -1,5 +1,6 @@
 package com.polofox.application.stock.eastmoney;
 
+import com.polofox.application.stock.eastmoney.test.ApplicationContext;
 import com.polofox.info.AppInfo;
 import com.polofox.log.Log;
 
@@ -20,6 +21,7 @@ public class EastMoneyApplication {
             System.out.println ("CopyAllRight sinsy@stickPoint All Right Reserved");
             System.out.println ("Current Version --"+ AppInfo.VERSION);
             Log.log ();
+            ApplicationContext.start();
         } catch (
                 IOException e) {
             System.out.println ("Polofox程序启动失败！");
