@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="fntp 局部更新 更新了框架的局部">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/GetScMus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/bean/ScMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/utils/BeanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/EastMoneyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/EastMoneyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/test/TestReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/test/ApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/PolofoxApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/PolofoxApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/EastMoneyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/EastMoneyApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/test/TestReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/info/AppInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/info/AppInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/util/GetMusic.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="Jenkins.Settings">
+    <option name="lastSelectedView" value="all" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -67,7 +69,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -79,12 +81,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.EastMoneyApplication">
-    <configuration name="DoHkReq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.polofox.application.stock.eastmoney.doReq.DoHkReq" />
+    <configuration name="BeanUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.polofox.utils.BeanUtils" />
       <module name="polofox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.polofox.application.stock.eastmoney.test.*" />
+          <option name="PATTERN" value="com.polofox.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,6 +107,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetMusicUrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.polofox.application.music.GetMusicUrl" />
+      <module name="polofox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.polofox.application.music.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetScMus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.polofox.application.music.GetScMus" />
+      <module name="polofox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.polofox.application.music.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PolofoxApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.polofox.PolofoxApplication" />
       <module name="polofox" />
@@ -118,42 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.polofox.application.stock.eastmoney.test.TestReq" />
-      <module name="polofox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.polofox.application.stock.eastmoney.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Log.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="polofox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.polofox.log.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.polofox.log" />
-      <option name="MAIN_CLASS_NAME" value="com.polofox.log.Log" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.EastMoneyApplication" />
+        <item itemvalue="Application.GetScMus" />
+        <item itemvalue="Application.GetMusicUrl" />
+        <item itemvalue="Application.BeanUtils" />
         <item itemvalue="Application.PolofoxApplication" />
-        <item itemvalue="Application.TestReq" />
-        <item itemvalue="JUnit.Log.test" />
-        <item itemvalue="Application.DoHkReq" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +181,13 @@
       <workItem from="1630848794579" duration="6259000" />
       <workItem from="1631960043191" duration="1139000" />
       <workItem from="1632273371790" duration="2586000" />
+      <workItem from="1632480426285" duration="2196000" />
+      <workItem from="1632558516610" duration="608000" />
+      <workItem from="1632561577477" duration="185000" />
+      <workItem from="1632619182813" duration="8576000" />
+      <workItem from="1632737878237" duration="3623000" />
+      <workItem from="1634721627097" duration="1782000" />
+      <workItem from="1634874370933" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
       <created>1628155516107</created>
