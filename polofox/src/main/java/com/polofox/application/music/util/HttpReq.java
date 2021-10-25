@@ -177,8 +177,9 @@ public class HttpReq {
 
     public static String getJson(String reqUrl) throws IOException {
         Response res = Jsoup.connect(reqUrl)
-                .header("User-Agent","Mozilla/5.0 (Windows NT 6.1; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0")
+                .header("User-Agent","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36")
                 .timeout(10000).ignoreContentType(true).execute();
+        System.out.println(res.body());
         String json = "";
         json=res.body();
     return json;

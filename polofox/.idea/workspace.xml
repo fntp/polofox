@@ -4,13 +4,90 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="fntp 局部更新 更新了框架的局部">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/GetScMus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/bean/ScMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/utils/BeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../polofoxMovies/polofoxFiction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polofoxMovies/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polofoxMusic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polofoxMusic/src/main/java/com/sinsy/fntp/mkonlineplayer/bean/NetEaseMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polofoxMusic/src/main/java/com/sinsy/fntp/mkonlineplayer/constraint/LocalData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polofoxMusic/src/main/java/com/sinsy/fntp/mkonlineplayer/service/NetEaseMusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polofoxMusic/src/main/java/com/sinsy/fntp/mkonlineplayer/service/impl/NetEaseMusicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polofoxMusic/src/main/java/com/sinsy/fntp/mkonlineplayer/test/TestMusic/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polofoxMusic/src/main/java/com/sinsy/fntp/mkonlineplayer/utils/LocalStringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polofoxMusic/src/main/resources/server1.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/util/GetMusic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/PolofoxApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/PolofoxApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/util/HttpReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/music/util/HttpReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/EastMoneyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/EastMoneyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-context.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/PolofoxApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/PolofoxApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/GetMusicUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/GetMusicUrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/GetScMus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/GetScMus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/bean/Music.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/bean/Music.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/bean/Req.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/bean/Req.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/bean/ScMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/bean/ScMusic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HtmlUnitBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HtmlUnitBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HttpReq$MyJSErrorListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HttpReq$MyJSErrorListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HttpReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/HttpReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/WordUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/music/util/WordUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/EastMoneyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/EastMoneyApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/AllHkStockDf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/AllHkStockDf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/HkStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/HkStock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/bean/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/doReq/DoHkCommentReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/doReq/DoHkCommentReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/doReq/DoHkReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/doReq/DoHkReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/doReq/DoHkUserQuoteReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/doReq/DoHkUserQuoteReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/httpreq/EastHttpReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/httpreq/URL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/httpreq/URL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/ListService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/ListService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/service/impl/ListServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/test/ApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/test/ApplicationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/utils/GeReqUrlInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/utils/GeReqUrlInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/context/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/context/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/Header.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/ReqHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/ReqHeader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/RespHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/RespHeader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Charset.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Charset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Encoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Encoding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Ranges.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/accept/Accept_Ranges.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/age/Age.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/age/Age.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/authorization/Authorization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/authorization/Authorization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cache/Cache_Control.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cache/Cache_Control.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/condition/If.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/condition/If.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/connection/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/connection/Connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cookie/Cookie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/cookie/Cookie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/date/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/date/Date.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/eTag/ETag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/eTag/ETag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/expect/Expect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/expect/Expect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/from/From.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/from/From.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/host/Host.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/host/Host.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/location/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/location/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/maxforward/Max_Forwards.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/maxforward/Max_Forwards.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/retry/Retry_After.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/retry/Retry_After.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/trailer/Trailer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/trailer/Trailer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/transferencoding/Transfer_Encoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/transferencoding/Transfer_Encoding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/upgrade/Upgrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/upgrade/Upgrade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/via/Via.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/via/Via.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/http/header/warning/Warning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/http/header/warning/Warning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/info/AppInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/info/AppInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/log/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/log/Info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/log/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/log/Log.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/utils/BeanUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/utils/BeanUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/utils/BeanUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/utils/BeanUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/utils/ChToEn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/utils/ChToEn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polofox.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polofox.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stockApi.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,14 +99,19 @@
       <list>
         <option value="Kotlin File" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="孙程鑫 &lt;sunchengxin@yingyinglicai.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -65,48 +147,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../polofoxMusic/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projectGit\polofox\polofoxMusic\src\main\resources" />
+      <recent name="D:\projectGit\polofox\polofox\src\main\java\com\polofox\log" />
       <recent name="D:\projectGit\polofox\polofox\src\main\resources" />
       <recent name="D:\code\polofox\src\main\java\com\polofox\https" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projectGit\polofox\polofox\src\main\resources" />
+      <recent name="D:\projectGit\polofox\polofox\src\main\resources\config\banner" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EastMoneyApplication">
-    <configuration name="BeanUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.polofox.utils.BeanUtils" />
-      <module name="polofox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.polofox.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EastMoneyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.polofox.application.stock.eastmoney.EastMoneyApplication" />
-      <module name="polofox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.polofox.application.stock.eastmoney.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="GetMusicUrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.polofox.application.music.GetMusicUrl" />
       <module name="polofox" />
@@ -120,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetScMus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.polofox.application.music.GetScMus" />
+    <configuration name="Log" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.polofox.log.Log" />
       <module name="polofox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.polofox.application.music.*" />
+          <option name="PATTERN" value="com.polofox.log.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,13 +205,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinsy.fntp.mkonlineplayer.test.TestMusic.Test" />
+      <module name="polofoxMusic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinsy.fntp.mkonlineplayer.test.TestMusic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Log.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="polofox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.polofox.log.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.polofox.log" />
+      <option name="MAIN_CLASS_NAME" value="com.polofox.log.Log" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EastMoneyApplication" />
-        <item itemvalue="Application.GetScMus" />
-        <item itemvalue="Application.GetMusicUrl" />
-        <item itemvalue="Application.BeanUtils" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.PolofoxApplication" />
+        <item itemvalue="Application.Log" />
+        <item itemvalue="JUnit.Log.test" />
+        <item itemvalue="Application.GetMusicUrl" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +276,7 @@
       <workItem from="1632737878237" duration="3623000" />
       <workItem from="1634721627097" duration="1782000" />
       <workItem from="1634874370933" duration="597000" />
+      <workItem from="1634875913907" duration="8515000" />
     </task>
     <task id="LOCAL-00001" summary="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
       <created>1628155516107</created>
@@ -245,7 +334,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630491079404</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fntp 局部更新 更新了框架的局部">
+      <created>1634876033550</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634876033550</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fntp 局部更新 更新了框架的局部">
+      <created>1634876127829</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1634876127829</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,5 +361,16 @@
     <MESSAGE value="fntp 局部更新 更新了框架的案例" />
     <MESSAGE value="fntp 局部更新 更新了框架的局部" />
     <option name="LAST_COMMIT_MESSAGE" value="fntp 局部更新 更新了框架的局部" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

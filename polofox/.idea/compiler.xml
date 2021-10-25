@@ -7,9 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="polofox" />
+        <module name="polofoxMovies" />
+        <module name="polofoxMusic" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="11">
+      <module name="polofoxFiction" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

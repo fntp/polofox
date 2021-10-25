@@ -22,8 +22,7 @@ public class EastMoneyApplication {
             System.out.println ("Current Version --"+ AppInfo.VERSION);
             Log.log ();
             ApplicationContext.start();
-        } catch (
-                IOException e) {
+        } catch (Exception e) {
             System.out.println ("Polofox程序启动失败！");
         }
     }

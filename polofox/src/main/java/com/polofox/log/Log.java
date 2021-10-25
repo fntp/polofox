@@ -1,5 +1,4 @@
 package com.polofox.log;
-import org.junit.Test;
 
 import java.io.*;
 import java.time.LocalDateTime;
@@ -10,10 +9,10 @@ public class Log {
     private static final Log log = new Log ();
     private Log(){}
     public static Log getLog() { return log; }
-    @Test
-    public void test(){
+
+    public static void main(String[] args) {
         try {
-            init();
+            new Log().init();
             info();
         } catch (Exception e) {
             e.printStackTrace();
@@ -21,13 +20,16 @@ public class Log {
     }
 
     @Info(info ="启动POLOFOX服务")
-    public void init() throws IOException {
-        InputStream resourceAsStream =this.getClass().getClassLoader().getResourceAsStream("polofox.txt");
-        assert resourceAsStream != null;
-        BufferedReader reader = new BufferedReader(new InputStreamReader(resourceAsStream));
+    public void init(){
+        InputStream inputStream = Log.class.getClassLoader().getResourceAsStream("polofox.txt");
+        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
         String cache;
-        while ((cache = reader.readLine()) != null) {
-            System.out.println(cache);
+        try {
+            while ((cache = reader.readLine()) != null) {
+                System.out.println(cache);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 

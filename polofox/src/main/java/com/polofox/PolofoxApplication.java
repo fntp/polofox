@@ -10,13 +10,9 @@ public class PolofoxApplication {
      * @param args
      */
     public static void main(String[] args) {
-        try {
             log.init ();
             System.out.println ("CopyAllRight sinsy@stickPoint All Right Reserved");
             System.out.println ("Current Version --"+ AppInfo.VERSION);
             Log.log ();
-        } catch (IOException e) {
-            System.out.println ("Polofox程序启动失败！");
-        }
     }
 }
