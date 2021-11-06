@@ -1,5 +1,7 @@
 package com.polofox.application.stock.eastmoney.utils;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -13,11 +15,13 @@ import java.util.Properties;
  */
 public class GeReqUrlInfo {
     private static  Properties properties;
-    static {
+    static  {
         try {
-            InputStream resourceAsStream = GeReqUrlInfo.class.getClassLoader().getResourceAsStream("stockApi.properties");
+            //InputStream resourceAsStream = GeReqUrlInfo.class.getClassLoader().getResourceAsStream("stockApi.properties");
+            File file = new File("src/main/resources/stockApi.properties");
+            InputStream in = new FileInputStream(file);
              properties = new Properties();
-            properties.load(resourceAsStream);
+            properties.load(in);
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

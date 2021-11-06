@@ -21,10 +21,12 @@ public class Log {
 
     @Info(info ="启动POLOFOX服务")
     public void init(){
-        InputStream inputStream = Log.class.getClassLoader().getResourceAsStream("polofox.txt");
-        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
-        String cache;
+//        InputStream inputStream = Log.class.getClassLoader().getResourceAsStream("polofox.txt");
         try {
+        File file = new File("src/main/resources/polofox.txt");
+        InputStream in = new FileInputStream(file);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+        String cache;
             while ((cache = reader.readLine()) != null) {
                 System.out.println(cache);
             }

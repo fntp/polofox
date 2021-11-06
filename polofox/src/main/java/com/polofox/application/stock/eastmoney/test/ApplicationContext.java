@@ -4,6 +4,7 @@ import com.polofox.application.stock.eastmoney.bean.Comment;
 import com.polofox.application.stock.eastmoney.bean.HkStock;
 import com.polofox.application.stock.eastmoney.doReq.DoHkCommentReq;
 import com.polofox.application.stock.eastmoney.doReq.DoHkReq;
+import com.polofox.application.stock.eastmoney.utils.FileUtils;
 
 import java.util.List;
 
@@ -17,9 +18,17 @@ import java.util.List;
 public class ApplicationContext {
     public static void start() {
         List<HkStock> hkStockList = DoHkReq.getHkStockList();
+        StringBuilder content = new StringBuilder("data:").append("\n");
         hkStockList.forEach(hkStock -> {
             List<Comment> commentList = DoHkCommentReq.getCommentList(hkStock.getStockCode());
-            commentList.forEach(System.out::println);
+            for (Comment comment : commentList) {
+                content.append(comment.toString()).append("\n");
+            }
         });
+                FileUtils.saveToLocal(content.toString(),"stockInfo.txt");
+    }
+
+    public static void main(String[] args) {
+        start();
     }
 }

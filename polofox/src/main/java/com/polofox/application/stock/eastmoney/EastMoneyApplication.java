@@ -3,9 +3,6 @@ package com.polofox.application.stock.eastmoney;
 import com.polofox.application.stock.eastmoney.test.ApplicationContext;
 import com.polofox.info.AppInfo;
 import com.polofox.log.Log;
-
-import java.io.IOException;
-
 /**
  * @author Write By SunChengXin
  * @title: StockApplication

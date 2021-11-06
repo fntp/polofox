@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="fntp 局部更新 更新了框架的局部">
+    <list default="true" id="8aadb1d5-932d-4212-b7bf-4566f27e04f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/exchange/EastHttpReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/exchange/ExchangeRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/exchange/GetMyExchangeRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/exchange/PolofoxFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/utils/FileUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/EastMoneyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/EastMoneyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/test/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/test/ApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/utils/GeReqUrlInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/application/stock/eastmoney/utils/GeReqUrlInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/stockApi.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/stockApi.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/EastMoneyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/EastMoneyApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/test/ApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/test/ApplicationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/utils/GeReqUrlInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polofox/application/stock/eastmoney/utils/GeReqUrlInfo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,14 +96,17 @@
       <recent name="D:\projectGit\polofox\polofox\src\main\resources" />
       <recent name="D:\projectGit\polofox\polofox\src\main\resources\config\banner" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.polofox.application.exchange" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="GetMusicUrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.polofox.application.music.GetMusicUrl" />
+  <component name="RunManager" selected="Application.EastMoneyApplication">
+    <configuration name="ApplicationContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.polofox.application.stock.eastmoney.test.ApplicationContext" />
       <module name="polofox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.polofox.application.music.*" />
+          <option name="PATTERN" value="com.polofox.application.stock.eastmoney.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Log" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.polofox.log.Log" />
+    <configuration name="EastMoneyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.polofox.application.stock.eastmoney.EastMoneyApplication" />
       <module name="polofox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.polofox.log.*" />
+          <option name="PATTERN" value="com.polofox.application.stock.eastmoney.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,6 +129,19 @@
     </configuration>
     <configuration name="PolofoxApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.polofox.PolofoxApplication" />
+      <module name="polofox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.polofox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.polofox.Test" />
       <module name="polofox" />
       <extension name="coverage">
         <pattern>
@@ -136,29 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Log.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="polofox" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.polofox.log.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.polofox.log" />
-      <option name="MAIN_CLASS_NAME" value="com.polofox.log.Log" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EastMoneyApplication" />
+        <item itemvalue="Application.ApplicationContext" />
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.PolofoxApplication" />
-        <item itemvalue="Application.Log" />
-        <item itemvalue="JUnit.Log.test" />
-        <item itemvalue="Application.GetMusicUrl" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +209,10 @@
       <workItem from="1634721627097" duration="1782000" />
       <workItem from="1634874370933" duration="597000" />
       <workItem from="1634875913907" duration="8515000" />
-      <workItem from="1635126669325" duration="1917000" />
+      <workItem from="1635126669325" duration="2630000" />
+      <workItem from="1635149179080" duration="598000" />
+      <workItem from="1635156488768" duration="599000" />
+      <workItem from="1635990847217" duration="7731000" />
     </task>
     <task id="LOCAL-00001" summary="fntp 今日造轮子对Http的Header部分的网络请求报文字段进行了更新处理，对常用报文字段以及请求和相应的header部分进行了定义，还有部分没有补全，等待下一次更新">
       <created>1628155516107</created>
@@ -274,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635126743207</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fntp 局部更新 更新了框架的局部">
+      <created>1635128640121</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635128640121</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,16 +311,5 @@
     <MESSAGE value="fntp 局部更新 更新了框架的案例" />
     <MESSAGE value="fntp 局部更新 更新了框架的局部" />
     <option name="LAST_COMMIT_MESSAGE" value="fntp 局部更新 更新了框架的局部" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/polofox/log/Log.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
